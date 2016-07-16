@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tarefa aula javascript</title>
+    <script>
+    document.write("<p>Ficha Cadastral</p>");
+    var nome=prompt("Qual seu nome?");
+    var nascimento=prompt("Que ano você nasceu?");
+    var cidade=prompt("Onde você mora?");
+    var hoje=new Date().getFullYear();
+    var idade=hoje-nascimento;
+    document.write("Nome: "+nome+"<br>"+"Ano de nascimento: "+nascimento+"<br>"+"Cidade: "+cidade+"<br>"+"Idade: "+idade);
+
+/* pesquisar sobre o objeto date() pq pra idade ele precisa também calcular com base no mês e dia, logo, vc precisa desse atual automático e ele fazendo a conta certinha*/
+
+
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>
